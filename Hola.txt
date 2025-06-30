@@ -1,3 +1,45 @@
 Hola mundo
 
 Estoy aprendiendo git
+
+Hola mundo
+
+Estoy aprendiendo git
+
+https://github.com/priscilo/Tareas.git
+
+git clone https://github.com/priscilo/Tareas.git
+
+git status
+
+
+git add .
+
+git diff
+
+
+
+
+
+git add Hola.txt
+
+git status
+
+git diff
+
+Estoy aprendiendo Git
+
+dentro de la carpeta
+cmd
+
+git status
+
+git add .
+
+
+git commit -m "Hola.txt"
+
+
+https://github.com/priscilo/Tareas.git
+
+git clone https://github.com/priscilo/Tareas.git
