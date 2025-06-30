@@ -2,44 +2,27 @@ Hola mundo
 
 Estoy aprendiendo git
 
-Hola mundo
-
-Estoy aprendiendo git
-
+dentro de la carpeta
+cmd
 https://github.com/priscilo/Tareas.git
 
 git clone https://github.com/priscilo/Tareas.git
 
 git status
 
-
 git add .
 
 git diff
-
-
-
-
 
 git add Hola.txt
 
 git status
 
 git diff
-
-Estoy aprendiendo Git
-
-dentro de la carpeta
-cmd
-
 git status
 
 git add .
 
-
 git commit -m "Hola.txt"
+git push
 
-
-https://github.com/priscilo/Tareas.git
-
-git clone https://github.com/priscilo/Tareas.git
