@@ -1,0 +1,68 @@
+ctl+l    
+git init            inicio
+rm -rf .git
+git bash
+ls
+pwd
+cd carpeta
+git add
+git status
+git commit -m "Primmer commit"
+git remote add origin http//
+git remote -v
+git push origin master
+git branch -m main
+git push origin main
+git pull origin main --allow-unrelated-histories
+ctl+Shift+z+z             salir
+git push origin main     subir los archivos
+
+  
+
+*   **`ctl+l`**: Limpia la pantalla de la terminal.
+No es un comando de Git.
+  
+*   **`git init`**: Inicializa un nuevo repositorio Git. Piensa en ello como comenzar un nuevo proyecto bajo el control de Git. Crea el directorio `.git` donde se almacenan todos los datos del repositorio.
+  
+rm -rf .git: Elimina el repositorio Git. Este es un comando *destructivo*. Elimina todo el historial y la configuración de Git. Úsalo solo si *realmente* quieres eliminar Git del proyecto.
+  
+*   **`git bash`**: Abre una terminal Git Bash (típicamente en Windows).
+  
+*   **`ls`**: Lista los archivos y directorios en el directorio actual (un comando estándar de Linux/Unix).
+  
+*   **`pwd`**: Imprime el directorio de trabajo actual (otro comando estándar de Linux/Unix).  
+*   **`cd carpeta`**: Cambia el directorio actual al directorio llamado "carpeta".
+  
+git add: Agrega los cambios de tu directorio de trabajo al área de preparación (staging area). Esto le dice a Git qué cambios quieres incluir en tu próximo commit.  
+
+git add . agrega todos los cambios en el directorio actual y sus subdirectorios.  
+git add <archivo> agrega un archivo específico.
+  
+git status: Muestra el estado del directorio de trabajo y del área de preparación. Te dirá qué archivos han sido modificados, preparados o no están rastreados.  
+*   **`git commit -m "Primer commit"`**: Crea un commit, que es una instantánea de tus cambios. La parte `-m "Primer commit"` agrega un mensaje al commit.  
+
+    *   **Los mensajes de commit son cruciales.** Deben ser claros, concisos y explicar *por qué* hiciste los cambios. Piensa en ellos como notas para ti y para otros que trabajarán en el proyecto. Un buen mensaje de commit ayuda a comprender el historial del proyecto.  
+    *   Ejemplo de un mejor mensaje de commit: `git commit -m "Fix: Corregido error tipográfico en README, actualizadas las instrucciones de instalación"` (Esto es más descriptivo).
+  
+*   **`git remote add origin http//`**: Incompleto. Debería ser `git remote add origin <URL_del_repositorio>`. Esto configura un repositorio remoto. "origin" es un nombre común para el repositorio remoto principal (como en GitHub).  
+
+    *   Necesitarás la URL real de tu repositorio (por ejemplo, `git remote add origin https://github.com/tu_usuario/tu_repositorio.git`).
+  
+*   **`git remote -v`**: Lista los repositorios remotos configurados (la opción `-v` muestra las URLs).
+  
+*   **`git push origin master`**: Envía la rama local `master` al repositorio remoto llamado `origin`. Esto sube tus commits.
+  
+*   **`git branch -m main`**: Renombra la rama actual a `main`.
+  
+*   **`git push origin main`**: Envía la rama local `main` al repositorio remoto llamado `origin`.
+  
+*   **`git pull origin main --allow-unrelated-histories`**: Obtiene los cambios de la rama remota `main` y los fusiona en tu rama local. `--allow-unrelated-histories` es necesario cuando las historias local y remota son diferentes.
+  
+*   **`ctl+Shift+z+z salir`**: Probablemente un atajo para salir de la terminal.
+  
+*   **`git push origin main subir los archivos`**: `git push origin main` sube los archivos. "subir los archivos" es solo una descripción.  
+
+En resumen, los buenos mensajes de commit son la principal forma de "comentar" tu trabajo en Git. Úsalos para explicar el *por qué* detrás de tus cambios.
+
+
+ 
