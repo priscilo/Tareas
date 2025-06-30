@@ -65,4 +65,13 @@ git status: Muestra el estado del directorio de trabajo y del área de preparaci
 En resumen, los buenos mensajes de commit son la principal forma de "comentar" tu trabajo en Git. Úsalos para explicar el *por qué* detrás de tus cambios.
 
 
+add file 
+upload file
+add them    archivo
+
+commit change   Subi un archivo
+optional discreption     Controles de git
+
+
+
  
